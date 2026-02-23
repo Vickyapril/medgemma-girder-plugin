@@ -1,0 +1,50 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2f4f6f"/>
+    </marker>
+    <style>
+      .t { font: 700 28px Arial, Helvetica, sans-serif; fill: #1f2d3d; }
+      .h { font: 700 16px Arial, Helvetica, sans-serif; fill: #1f2d3d; }
+      .m { font: 600 14px Arial, Helvetica, sans-serif; fill: #2f4f6f; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" fill="#ffffff"/>
+  <text x="40" y="52" class="t">High-Level Architecture</text>
+
+  <!-- User -->
+  <rect x="40" y="185" width="200" height="70" rx="10" fill="#6a11e6" stroke="#4f0fb0" stroke-width="1.5"/>
+  <text x="140" y="228" text-anchor="middle" style="font:700 22px Arial; fill:#ffffff;">User</text>
+
+  <!-- Airflow container -->
+  <rect x="300" y="70" width="820" height="380" rx="0" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="710" y="68" text-anchor="middle" class="h">Airflow</text>
+
+  <!-- Girder -->
+  <rect x="380" y="110" width="380" height="95" rx="12" fill="#2a9bd7" stroke="#1f7cae" stroke-width="1.5"/>
+  <text x="570" y="167" text-anchor="middle" style="font:700 34px Arial; fill:#ffffff;">Girder</text>
+
+  <!-- Linux worker -->
+  <rect x="420" y="245" width="470" height="170" rx="18" fill="#ffffff" stroke="#d62b2b" stroke-width="2"/>
+  <text x="655" y="415" text-anchor="middle" class="h">Linux Worker</text>
+
+  <!-- MedGemma -->
+  <ellipse cx="655" cy="330" rx="120" ry="60" fill="#61ad2b" stroke="#3f7f19" stroke-width="1.5"/>
+  <text x="655" y="340" text-anchor="middle" style="font:700 38px Arial; fill:#ffffff;">MedGemma</text>
+
+  <!-- Output -->
+  <rect x="920" y="245" width="170" height="95" rx="12" fill="#f4fbff" stroke="#2a9bd7" stroke-width="1.8"/>
+  <text x="1005" y="280" text-anchor="middle" style="font:700 24px Arial; fill:#1f2d3d;">Output</text>
+  <text x="1005" y="305" text-anchor="middle" style="font:600 13px Arial; fill:#2f4f6f;">Risk + Usability</text>
+  <text x="1005" y="323" text-anchor="middle" style="font:600 13px Arial; fill:#2f4f6f;">+ Review flag</text>
+
+  <!-- Arrows -->
+  <line x1="240" y1="220" x2="380" y2="220" stroke="#2f4f6f" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="650" y1="245" x2="650" y2="206" stroke="#d62222" stroke-width="8" marker-end="url(#arrow)"/>
+  <line x1="660" y1="206" x2="660" y2="245" stroke="#d62222" stroke-width="8" marker-end="url(#arrow)"/>
+  <line x1="775" y1="330" x2="920" y2="292" stroke="#2f4f6f" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="920" y1="315" x2="760" y2="170" stroke="#2f4f6f" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <text x="40" y="490" class="m">Dataset governance triage (not diagnosis)</text>
+</svg>

@@ -14,7 +14,7 @@ A privacy-first, local workflow for radiology DICOM governance triage using Gird
 
 ## Architecture
 
-![High-Level Architecture](./docs/assets/architecture/architecture_simple.png)
+![High-Level Architecture](./docs/assets/architecture/architecture_simple.svg)
 
 **Figure:** User triggers from Girder, Airflow orchestrates processing, Linux worker runs MedGemma governance reasoning, and results are written back to Girder.
 

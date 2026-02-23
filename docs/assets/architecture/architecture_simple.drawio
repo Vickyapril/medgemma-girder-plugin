@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="codex" version="29.5.1">
+  <diagram id="simple-arch" name="Page-1">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="High-Level Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="360" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="airflowBox" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="860" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="airflowLabel" value="Airflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="50" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="user" value="User" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="girder" value="Girder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="360" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="linux" value="Linux Worker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d62b2b;strokeWidth=2;verticalAlign=bottom;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="460" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="medgemma" value="MedGemma" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="285" width="230" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="output" value="Output&#xa;Risk + Usability&#xa;+ Review flag" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4fbff;strokeColor=#2a9bd7;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="255" width="180" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="footer" value="Dataset governance triage (not diagnosis)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="485" width="360" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="user" target="girder" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="girder" target="linux" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="linux" target="girder" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="medgemma" target="output" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
