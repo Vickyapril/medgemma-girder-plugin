@@ -8,7 +8,7 @@ A privacy-first, local workflow for radiology DICOM governance triage using Gird
 
 ## Demo Video
 
-- **3-minute demo:** `<PASTE_YOUTUBE_LINK_HERE>`
+- **3-minute demo:** `https://youtu.be/gpgp817RGcQ`
 
 ---
 
