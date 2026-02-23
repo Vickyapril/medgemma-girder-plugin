@@ -1,0 +1,22 @@
+# Core dependencies
+pydicom>=2.4.0
+numpy>=1.24.0
+Pillow>=10.0.0
+girder-client>=3.1.0
+requests>=2.31.0
+
+# Hugging Face for MedGemma
+transformers>=4.35.0
+huggingface-hub>=0.19.0
+torch>=2.0.0  # Optional: only needed for local model loading
+
+# Data processing
+pandas>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
+tqdm>=4.66.0
+
+# Testing
+pytest>=7.4.0

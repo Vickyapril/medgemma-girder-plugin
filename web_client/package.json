@@ -1,0 +1,8 @@
+{
+  "name": "medgemma-girder-plugin-web-client",
+  "version": "1.0.0",
+  "description": "Girder UI button for triggering Airflow DICOM pipeline",
+  "main": "main.js",
+  "license": "MIT",
+  "private": true
+}

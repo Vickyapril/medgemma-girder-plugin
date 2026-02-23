@@ -1,0 +1,24 @@
+# MedGemma-Girder Plugin Configuration
+
+# DICOM Processing Settings
+dicom:
+  num_slices: 5  # Number of representative slices to extract
+  slice_selection_strategy: "evenly_spaced"  # Options: evenly_spaced, middle, variance_based
+
+# MedGemma API Settings
+medgemma:
+  api_url: "https://api.medgemma.com/v1"
+  timeout: 60  # Request timeout in seconds
+  max_retries: 3
+
+# Output Settings
+output:
+  format: "markdown"  # Options: markdown, json, html
+  save_images: true
+  image_format: "png"  # Options: png, jpg
+
+# Analysis Settings
+analysis:
+  include_quality_score: true
+  include_protocol_compliance: true
+  include_research_suitability: true
